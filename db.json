@@ -1,0 +1,4010 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "user@example.com",
+      "password": "password123",
+      "name": "John Doe"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Complete project documentation",
+      "description": "Write comprehensive documentation for the project",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-05-05",
+      "createdAt": "2026-02-07",
+      "updatedAt": "2026-07-29T18:35:37.001Z"
+    },
+    {
+      "id": 2,
+      "title": "Implement authentication",
+      "description": "Set up login and registration functionality",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-03-21",
+      "createdAt": "2026-10-11",
+      "updatedAt": "2026-07-29T18:46:41.673Z"
+    },
+    {
+      "id": 3,
+      "title": "Design dashboard UI",
+      "description": "Create wireframes and mockups for dashboard",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-06-09",
+      "createdAt": "2026-11-07",
+      "updatedAt": "2026-12-03"
+    },
+    {
+      "id": 4,
+      "title": "Create reusable Button component",
+      "description": "Build reusable button component with variants",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-11-16",
+      "createdAt": "2026-09-27",
+      "updatedAt": "2026-12-05"
+    },
+    {
+      "id": 5,
+      "title": "Build Sidebar navigation",
+      "description": "Implement responsive sidebar using shadcn/ui",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-08-13",
+      "createdAt": "2026-06-20",
+      "updatedAt": "2026-07-29T18:35:40.944Z"
+    },
+    {
+      "id": 6,
+      "title": "Integrate Redux Toolkit",
+      "description": "Configure store and task slices",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-03-25",
+      "createdAt": "2026-02-06",
+      "updatedAt": "2026-05-18"
+    },
+    {
+      "id": 7,
+      "title": "Implement task filtering",
+      "description": "Filter tasks by status and priority",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-06-27",
+      "createdAt": "2026-06-02",
+      "updatedAt": "2026-07-11"
+    },
+    {
+      "id": 8,
+      "title": "Add search functionality",
+      "description": "Implement debounced task search",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-02-15",
+      "createdAt": "2026-01-23",
+      "updatedAt": "2026-07-29T18:35:47.937Z"
+    },
+    {
+      "id": 9,
+      "title": "Create Kanban board",
+      "description": "Build drag and drop Kanban using dnd-kit",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-07-10",
+      "createdAt": "2026-06-26",
+      "updatedAt": "2026-07-29T18:36:26.585Z"
+    },
+    {
+      "id": 10,
+      "title": "Implement pagination",
+      "description": "Add pagination to task list",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-03-04",
+      "createdAt": "2026-06-02",
+      "updatedAt": "2026-07-29T18:36:30.105Z"
+    },
+    {
+      "id": 11,
+      "title": "Add dark mode support",
+      "description": "Implement light and dark theme switching",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-09-03",
+      "createdAt": "2026-02-13",
+      "updatedAt": "2026-11-09"
+    },
+    {
+      "id": 12,
+      "title": "Build task detail page",
+      "description": "Display complete task information",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-11-28",
+      "createdAt": "2026-05-12",
+      "updatedAt": "2026-02-03"
+    },
+    {
+      "id": 13,
+      "title": "Add form validation",
+      "description": "Validate task form using React Hook Form and Zod",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-05-21",
+      "createdAt": "2026-07-25",
+      "updatedAt": "2026-06-23"
+    },
+    {
+      "id": 14,
+      "title": "Create dashboard charts",
+      "description": "Visualize task statistics with Recharts",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-06-19",
+      "createdAt": "2026-01-24",
+      "updatedAt": "2026-07-29T18:41:19.713Z"
+    },
+    {
+      "id": 15,
+      "title": "Optimize application performance",
+      "description": "Reduce unnecessary re-renders and improve loading speed",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-10-02",
+      "createdAt": "2026-10-02",
+      "updatedAt": "2026-09-16"
+    },
+    {
+      "id": 16,
+      "title": "Setup Docker container",
+      "description": "Create Dockerfile and docker-compose configurations",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-07-24",
+      "createdAt": "2026-12-09",
+      "updatedAt": "2026-07-29T18:37:49.617Z"
+    },
+    {
+      "id": 17,
+      "title": "Configure CI/CD pipeline",
+      "description": "Automate build and deployment process via GitHub Actions",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-07-05",
+      "createdAt": "2026-10-09",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "id": 18,
+      "title": "Fix responsive layout bugs",
+      "description": "Resolve UI breakages on mobile screen sizes",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-06-25",
+      "createdAt": "2026-03-08",
+      "updatedAt": "2026-07-01"
+    },
+    {
+      "id": 19,
+      "title": "Write unit tests for Redux thunks",
+      "description": "Increase test coverage for API integration",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-06-28",
+      "createdAt": "2026-07-21",
+      "updatedAt": "2026-07-29T18:42:50.328Z"
+    },
+    {
+      "id": 20,
+      "title": "Implement export to CSV feature",
+      "description": "Allow users to download their task history",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-03-05",
+      "createdAt": "2026-10-08",
+      "updatedAt": "2026-01-03"
+    },
+    {
+      "id": 21,
+      "title": "Complete project documentation #21",
+      "description": "Write comprehensive documentation for the project",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-02-26",
+      "createdAt": "2026-03-23",
+      "updatedAt": "2026-07-29T18:42:53.377Z"
+    },
+    {
+      "id": 22,
+      "title": "Implement authentication #22",
+      "description": "Set up login and registration functionality",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-03-11",
+      "createdAt": "2026-09-21",
+      "updatedAt": "2026-07-29T18:42:57.929Z"
+    },
+    {
+      "id": 23,
+      "title": "Design dashboard UI #23",
+      "description": "Create wireframes and mockups for dashboard",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-06-01",
+      "createdAt": "2026-10-18",
+      "updatedAt": "2026-07-29T18:46:44.689Z"
+    },
+    {
+      "id": 24,
+      "title": "Create reusable Button component #24",
+      "description": "Build reusable button component with variants",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-04-26",
+      "createdAt": "2026-04-24",
+      "updatedAt": "2026-04-04"
+    },
+    {
+      "id": 25,
+      "title": "Build Sidebar navigation #25",
+      "description": "Implement responsive sidebar using shadcn/ui",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-11-12",
+      "createdAt": "2026-02-26",
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": 26,
+      "title": "Integrate Redux Toolkit #26",
+      "description": "Configure store and task slices",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-03-03",
+      "createdAt": "2026-03-15",
+      "updatedAt": "2026-06-03"
+    },
+    {
+      "id": 27,
+      "title": "Implement task filtering #27",
+      "description": "Filter tasks by status and priority",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-02-14",
+      "createdAt": "2026-10-03",
+      "updatedAt": "2026-07-29T18:46:54.609Z"
+    },
+    {
+      "id": 28,
+      "title": "Add search functionality #28",
+      "description": "Implement debounced task search",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-02-18",
+      "createdAt": "2026-04-15",
+      "updatedAt": "2026-10-06"
+    },
+    {
+      "id": 29,
+      "title": "Create Kanban board #29",
+      "description": "Build drag and drop Kanban using dnd-kit",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-04-09",
+      "createdAt": "2026-02-10",
+      "updatedAt": "2026-10-08"
+    },
+    {
+      "id": 30,
+      "title": "Implement pagination #30",
+      "description": "Add pagination to task list",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-08-04",
+      "createdAt": "2026-10-15",
+      "updatedAt": "2026-07-29T18:46:59.721Z"
+    },
+    {
+      "id": 31,
+      "title": "Add dark mode support #31",
+      "description": "Implement light and dark theme switching",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-12-19",
+      "createdAt": "2026-06-28",
+      "updatedAt": "2026-07-29T18:49:12.721Z"
+    },
+    {
+      "id": 32,
+      "title": "Build task detail page #32",
+      "description": "Display complete task information",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-08-10",
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-06-15"
+    },
+    {
+      "id": 33,
+      "title": "Add form validation #33",
+      "description": "Validate task form using React Hook Form and Zod",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-10-18",
+      "createdAt": "2026-03-19",
+      "updatedAt": "2026-02-09"
+    },
+    {
+      "id": 34,
+      "title": "Create dashboard charts #34",
+      "description": "Visualize task statistics with Recharts",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-03-27",
+      "createdAt": "2026-08-18",
+      "updatedAt": "2026-04-28"
+    },
+    {
+      "id": 35,
+      "title": "Optimize application performance #35",
+      "description": "Reduce unnecessary re-renders and improve loading speed",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-08-21",
+      "createdAt": "2026-06-23",
+      "updatedAt": "2026-07-29T18:49:18.185Z"
+    },
+    {
+      "id": 36,
+      "title": "Setup Docker container #36",
+      "description": "Create Dockerfile and docker-compose configurations",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-05-23",
+      "createdAt": "2026-09-13",
+      "updatedAt": "2026-05-02"
+    },
+    {
+      "id": 37,
+      "title": "Configure CI/CD pipeline #37",
+      "description": "Automate build and deployment process via GitHub Actions",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-02-28",
+      "createdAt": "2026-11-21",
+      "updatedAt": "2026-03-25"
+    },
+    {
+      "id": 38,
+      "title": "Fix responsive layout bugs #38",
+      "description": "Resolve UI breakages on mobile screen sizes",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-01-26",
+      "createdAt": "2026-03-19",
+      "updatedAt": "2026-07-29T18:49:16.152Z"
+    },
+    {
+      "id": 39,
+      "title": "Write unit tests for Redux thunks #39",
+      "description": "Increase test coverage for API integration",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-02-21",
+      "createdAt": "2026-04-25",
+      "updatedAt": "2026-07-29T18:49:19.785Z"
+    },
+    {
+      "id": 40,
+      "title": "Implement export to CSV feature #40",
+      "description": "Allow users to download their task history",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-12-21",
+      "createdAt": "2026-05-15",
+      "updatedAt": "2026-07-29T18:49:22.303Z"
+    },
+    {
+      "id": 41,
+      "title": "Complete project documentation #41",
+      "description": "Write comprehensive documentation for the project",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-12-22",
+      "createdAt": "2026-04-21",
+      "updatedAt": "2026-03-18"
+    },
+    {
+      "id": 42,
+      "title": "Implement authentication #42",
+      "description": "Set up login and registration functionality",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-07-17",
+      "createdAt": "2026-03-15",
+      "updatedAt": "2026-01-04"
+    },
+    {
+      "id": 43,
+      "title": "Design dashboard UI #43",
+      "description": "Create wireframes and mockups for dashboard",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-07-24",
+      "createdAt": "2026-05-05",
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "id": 44,
+      "title": "Create reusable Button component #44",
+      "description": "Build reusable button component with variants",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-10-14",
+      "createdAt": "2026-03-15",
+      "updatedAt": "2026-01-12"
+    },
+    {
+      "id": 45,
+      "title": "Build Sidebar navigation #45",
+      "description": "Implement responsive sidebar using shadcn/ui",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-05-13",
+      "createdAt": "2026-03-21",
+      "updatedAt": "2026-03-13"
+    },
+    {
+      "id": 46,
+      "title": "Integrate Redux Toolkit #46",
+      "description": "Configure store and task slices",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-05-01",
+      "createdAt": "2026-04-24",
+      "updatedAt": "2026-06-07"
+    },
+    {
+      "id": 47,
+      "title": "Implement task filtering #47",
+      "description": "Filter tasks by status and priority",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-09-16",
+      "createdAt": "2026-04-24",
+      "updatedAt": "2026-01-20"
+    },
+    {
+      "id": 48,
+      "title": "Add search functionality #48",
+      "description": "Implement debounced task search",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-09-07",
+      "createdAt": "2026-11-07",
+      "updatedAt": "2026-02-12"
+    },
+    {
+      "id": 49,
+      "title": "Create Kanban board #49",
+      "description": "Build drag and drop Kanban using dnd-kit",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-04-11",
+      "createdAt": "2026-05-28",
+      "updatedAt": "2026-12-23"
+    },
+    {
+      "id": 50,
+      "title": "Implement pagination #50",
+      "description": "Add pagination to task list",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-01-24",
+      "createdAt": "2026-06-11",
+      "updatedAt": "2026-06-23"
+    },
+    {
+      "id": 51,
+      "title": "Add dark mode support #51",
+      "description": "Implement light and dark theme switching",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-04-15",
+      "createdAt": "2026-04-24",
+      "updatedAt": "2026-06-18"
+    },
+    {
+      "id": 52,
+      "title": "Build task detail page #52",
+      "description": "Display complete task information",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-08-22",
+      "createdAt": "2026-03-27",
+      "updatedAt": "2026-02-07"
+    },
+    {
+      "id": 53,
+      "title": "Add form validation #53",
+      "description": "Validate task form using React Hook Form and Zod",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-05-24",
+      "createdAt": "2026-05-01",
+      "updatedAt": "2026-08-15"
+    },
+    {
+      "id": 54,
+      "title": "Create dashboard charts #54",
+      "description": "Visualize task statistics with Recharts",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-01-08",
+      "createdAt": "2026-10-25",
+      "updatedAt": "2026-08-19"
+    },
+    {
+      "id": 55,
+      "title": "Optimize application performance #55",
+      "description": "Reduce unnecessary re-renders and improve loading speed",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-09-17",
+      "createdAt": "2026-11-03",
+      "updatedAt": "2026-02-21"
+    },
+    {
+      "id": 56,
+      "title": "Setup Docker container #56",
+      "description": "Create Dockerfile and docker-compose configurations",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-08-26",
+      "createdAt": "2026-07-10",
+      "updatedAt": "2026-02-13"
+    },
+    {
+      "id": 57,
+      "title": "Configure CI/CD pipeline #57",
+      "description": "Automate build and deployment process via GitHub Actions",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-03-10",
+      "createdAt": "2026-12-25",
+      "updatedAt": "2026-05-12"
+    },
+    {
+      "id": 58,
+      "title": "Fix responsive layout bugs #58",
+      "description": "Resolve UI breakages on mobile screen sizes",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-11-18",
+      "createdAt": "2026-06-15",
+      "updatedAt": "2026-08-11"
+    },
+    {
+      "id": 59,
+      "title": "Write unit tests for Redux thunks #59",
+      "description": "Increase test coverage for API integration",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-10-03",
+      "createdAt": "2026-07-23",
+      "updatedAt": "2026-06-21"
+    },
+    {
+      "id": 60,
+      "title": "Implement export to CSV feature #60",
+      "description": "Allow users to download their task history",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-03-08",
+      "createdAt": "2026-04-16",
+      "updatedAt": "2026-08-16"
+    },
+    {
+      "id": 61,
+      "title": "Complete project documentation #61",
+      "description": "Write comprehensive documentation for the project",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-05-05",
+      "createdAt": "2026-11-23",
+      "updatedAt": "2026-01-25"
+    },
+    {
+      "id": 62,
+      "title": "Implement authentication #62",
+      "description": "Set up login and registration functionality",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-04-23",
+      "createdAt": "2026-01-24",
+      "updatedAt": "2026-09-02"
+    },
+    {
+      "id": 63,
+      "title": "Design dashboard UI #63",
+      "description": "Create wireframes and mockups for dashboard",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-06-14",
+      "createdAt": "2026-04-03",
+      "updatedAt": "2026-12-24"
+    },
+    {
+      "id": 64,
+      "title": "Create reusable Button component #64",
+      "description": "Build reusable button component with variants",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-12-07",
+      "createdAt": "2026-08-10",
+      "updatedAt": "2026-09-17"
+    },
+    {
+      "id": 65,
+      "title": "Build Sidebar navigation #65",
+      "description": "Implement responsive sidebar using shadcn/ui",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-03-13",
+      "createdAt": "2026-10-21",
+      "updatedAt": "2026-11-01"
+    },
+    {
+      "id": 66,
+      "title": "Integrate Redux Toolkit #66",
+      "description": "Configure store and task slices",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-09-20",
+      "createdAt": "2026-08-17",
+      "updatedAt": "2026-03-17"
+    },
+    {
+      "id": 67,
+      "title": "Implement task filtering #67",
+      "description": "Filter tasks by status and priority",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-07-09",
+      "createdAt": "2026-11-03",
+      "updatedAt": "2026-08-25"
+    },
+    {
+      "id": 68,
+      "title": "Add search functionality #68",
+      "description": "Implement debounced task search",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-10-12",
+      "createdAt": "2026-04-11",
+      "updatedAt": "2026-10-03"
+    },
+    {
+      "id": 69,
+      "title": "Create Kanban board #69",
+      "description": "Build drag and drop Kanban using dnd-kit",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-03-04",
+      "createdAt": "2026-06-15",
+      "updatedAt": "2026-06-01"
+    },
+    {
+      "id": 70,
+      "title": "Implement pagination #70",
+      "description": "Add pagination to task list",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-06-16",
+      "createdAt": "2026-07-18",
+      "updatedAt": "2026-02-22"
+    },
+    {
+      "id": 71,
+      "title": "Add dark mode support #71",
+      "description": "Implement light and dark theme switching",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-10-06",
+      "createdAt": "2026-07-04",
+      "updatedAt": "2026-08-04"
+    },
+    {
+      "id": 72,
+      "title": "Build task detail page #72",
+      "description": "Display complete task information",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-04-15",
+      "createdAt": "2026-02-25",
+      "updatedAt": "2026-06-18"
+    },
+    {
+      "id": 73,
+      "title": "Add form validation #73",
+      "description": "Validate task form using React Hook Form and Zod",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-03-14",
+      "createdAt": "2026-02-08",
+      "updatedAt": "2026-04-14"
+    },
+    {
+      "id": 74,
+      "title": "Create dashboard charts #74",
+      "description": "Visualize task statistics with Recharts",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-06-10",
+      "createdAt": "2026-08-16",
+      "updatedAt": "2026-03-13"
+    },
+    {
+      "id": 75,
+      "title": "Optimize application performance #75",
+      "description": "Reduce unnecessary re-renders and improve loading speed",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-11-23",
+      "createdAt": "2026-06-01",
+      "updatedAt": "2026-08-21"
+    },
+    {
+      "id": 76,
+      "title": "Setup Docker container #76",
+      "description": "Create Dockerfile and docker-compose configurations",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-10-05",
+      "createdAt": "2026-12-26",
+      "updatedAt": "2026-06-26"
+    },
+    {
+      "id": 77,
+      "title": "Configure CI/CD pipeline #77",
+      "description": "Automate build and deployment process via GitHub Actions",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-06-26",
+      "createdAt": "2026-02-08",
+      "updatedAt": "2026-04-09"
+    },
+    {
+      "id": 78,
+      "title": "Fix responsive layout bugs #78",
+      "description": "Resolve UI breakages on mobile screen sizes",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-01-06",
+      "createdAt": "2026-05-25",
+      "updatedAt": "2026-10-22"
+    },
+    {
+      "id": 79,
+      "title": "Write unit tests for Redux thunks #79",
+      "description": "Increase test coverage for API integration",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-01-18",
+      "createdAt": "2026-10-27",
+      "updatedAt": "2026-02-15"
+    },
+    {
+      "id": 80,
+      "title": "Implement export to CSV feature #80",
+      "description": "Allow users to download their task history",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-12-22",
+      "createdAt": "2026-08-11",
+      "updatedAt": "2026-09-05"
+    },
+    {
+      "id": 81,
+      "title": "Complete project documentation #81",
+      "description": "Write comprehensive documentation for the project",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-02-04",
+      "createdAt": "2026-03-15",
+      "updatedAt": "2026-02-03"
+    },
+    {
+      "id": 82,
+      "title": "Implement authentication #82",
+      "description": "Set up login and registration functionality",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-08-06",
+      "createdAt": "2026-02-18",
+      "updatedAt": "2026-10-19"
+    },
+    {
+      "id": 83,
+      "title": "Design dashboard UI #83",
+      "description": "Create wireframes and mockups for dashboard",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-08-19",
+      "createdAt": "2026-05-02",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": 84,
+      "title": "Create reusable Button component #84",
+      "description": "Build reusable button component with variants",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-07-09",
+      "createdAt": "2026-10-10",
+      "updatedAt": "2026-06-09"
+    },
+    {
+      "id": 85,
+      "title": "Build Sidebar navigation #85",
+      "description": "Implement responsive sidebar using shadcn/ui",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-04-13",
+      "createdAt": "2026-08-23",
+      "updatedAt": "2026-01-23"
+    },
+    {
+      "id": 86,
+      "title": "Integrate Redux Toolkit #86",
+      "description": "Configure store and task slices",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-05-12",
+      "createdAt": "2026-12-24",
+      "updatedAt": "2026-09-01"
+    },
+    {
+      "id": 87,
+      "title": "Implement task filtering #87",
+      "description": "Filter tasks by status and priority",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-12-08",
+      "createdAt": "2026-11-24",
+      "updatedAt": "2026-10-08"
+    },
+    {
+      "id": 88,
+      "title": "Add search functionality #88",
+      "description": "Implement debounced task search",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-07-21",
+      "createdAt": "2026-02-22",
+      "updatedAt": "2026-06-09"
+    },
+    {
+      "id": 89,
+      "title": "Create Kanban board #89",
+      "description": "Build drag and drop Kanban using dnd-kit",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-03-27",
+      "createdAt": "2026-01-19",
+      "updatedAt": "2026-07-26"
+    },
+    {
+      "id": 90,
+      "title": "Implement pagination #90",
+      "description": "Add pagination to task list",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-04-02",
+      "createdAt": "2026-12-20",
+      "updatedAt": "2026-05-18"
+    },
+    {
+      "id": 91,
+      "title": "Add dark mode support #91",
+      "description": "Implement light and dark theme switching",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-02-23",
+      "createdAt": "2026-11-11",
+      "updatedAt": "2026-05-09"
+    },
+    {
+      "id": 92,
+      "title": "Build task detail page #92",
+      "description": "Display complete task information",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-12-07",
+      "createdAt": "2026-05-21",
+      "updatedAt": "2026-01-14"
+    },
+    {
+      "id": 93,
+      "title": "Add form validation #93",
+      "description": "Validate task form using React Hook Form and Zod",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-01-28",
+      "createdAt": "2026-02-14",
+      "updatedAt": "2026-10-03"
+    },
+    {
+      "id": 94,
+      "title": "Create dashboard charts #94",
+      "description": "Visualize task statistics with Recharts",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-09-23",
+      "createdAt": "2026-02-20",
+      "updatedAt": "2026-04-20"
+    },
+    {
+      "id": 95,
+      "title": "Optimize application performance #95",
+      "description": "Reduce unnecessary re-renders and improve loading speed",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-01-09",
+      "createdAt": "2026-08-25",
+      "updatedAt": "2026-08-27"
+    },
+    {
+      "id": 96,
+      "title": "Setup Docker container #96",
+      "description": "Create Dockerfile and docker-compose configurations",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-01-14",
+      "createdAt": "2026-11-17",
+      "updatedAt": "2026-05-03"
+    },
+    {
+      "id": 97,
+      "title": "Configure CI/CD pipeline #97",
+      "description": "Automate build and deployment process via GitHub Actions",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-08-03",
+      "createdAt": "2026-07-02",
+      "updatedAt": "2026-08-17"
+    },
+    {
+      "id": 98,
+      "title": "Fix responsive layout bugs #98",
+      "description": "Resolve UI breakages on mobile screen sizes",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-01-15",
+      "createdAt": "2026-05-11",
+      "updatedAt": "2026-08-25"
+    },
+    {
+      "id": 99,
+      "title": "Write unit tests for Redux thunks #99",
+      "description": "Increase test coverage for API integration",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-12-07",
+      "createdAt": "2026-05-13",
+      "updatedAt": "2026-03-03"
+    },
+    {
+      "id": 100,
+      "title": "Implement export to CSV feature #100",
+      "description": "Allow users to download their task history",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-04-18",
+      "createdAt": "2026-09-08",
+      "updatedAt": "2026-02-24"
+    },
+    {
+      "id": 101,
+      "title": "Complete project documentation #101",
+      "description": "Write comprehensive documentation for the project",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-10-19",
+      "createdAt": "2026-12-16",
+      "updatedAt": "2026-05-01"
+    },
+    {
+      "id": 102,
+      "title": "Implement authentication #102",
+      "description": "Set up login and registration functionality",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-12-15",
+      "createdAt": "2026-09-17",
+      "updatedAt": "2026-06-13"
+    },
+    {
+      "id": 103,
+      "title": "Design dashboard UI #103",
+      "description": "Create wireframes and mockups for dashboard",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-09-17",
+      "createdAt": "2026-05-21",
+      "updatedAt": "2026-12-06"
+    },
+    {
+      "id": 104,
+      "title": "Create reusable Button component #104",
+      "description": "Build reusable button component with variants",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-06-17",
+      "createdAt": "2026-05-10",
+      "updatedAt": "2026-06-27"
+    },
+    {
+      "id": 105,
+      "title": "Build Sidebar navigation #105",
+      "description": "Implement responsive sidebar using shadcn/ui",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-01-17",
+      "createdAt": "2026-10-25",
+      "updatedAt": "2026-08-24"
+    },
+    {
+      "id": 106,
+      "title": "Integrate Redux Toolkit #106",
+      "description": "Configure store and task slices",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-04-16",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-02"
+    },
+    {
+      "id": 107,
+      "title": "Implement task filtering #107",
+      "description": "Filter tasks by status and priority",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-11-21",
+      "createdAt": "2026-11-19",
+      "updatedAt": "2026-02-01"
+    },
+    {
+      "id": 108,
+      "title": "Add search functionality #108",
+      "description": "Implement debounced task search",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-11-01",
+      "createdAt": "2026-11-27",
+      "updatedAt": "2026-07-25"
+    },
+    {
+      "id": 109,
+      "title": "Create Kanban board #109",
+      "description": "Build drag and drop Kanban using dnd-kit",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-12-18",
+      "createdAt": "2026-09-19",
+      "updatedAt": "2026-10-17"
+    },
+    {
+      "id": 110,
+      "title": "Implement pagination #110",
+      "description": "Add pagination to task list",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-06-13",
+      "createdAt": "2026-02-04",
+      "updatedAt": "2026-01-28"
+    },
+    {
+      "id": 111,
+      "title": "Add dark mode support #111",
+      "description": "Implement light and dark theme switching",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-07-28",
+      "createdAt": "2026-09-10",
+      "updatedAt": "2026-04-17"
+    },
+    {
+      "id": 112,
+      "title": "Build task detail page #112",
+      "description": "Display complete task information",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-05-21",
+      "createdAt": "2026-05-15",
+      "updatedAt": "2026-02-25"
+    },
+    {
+      "id": 113,
+      "title": "Add form validation #113",
+      "description": "Validate task form using React Hook Form and Zod",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-06-16",
+      "createdAt": "2026-11-08",
+      "updatedAt": "2026-10-23"
+    },
+    {
+      "id": 114,
+      "title": "Create dashboard charts #114",
+      "description": "Visualize task statistics with Recharts",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-10-28",
+      "createdAt": "2026-01-20",
+      "updatedAt": "2026-09-14"
+    },
+    {
+      "id": 115,
+      "title": "Optimize application performance #115",
+      "description": "Reduce unnecessary re-renders and improve loading speed",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-04-22",
+      "createdAt": "2026-07-01",
+      "updatedAt": "2026-04-25"
+    },
+    {
+      "id": 116,
+      "title": "Setup Docker container #116",
+      "description": "Create Dockerfile and docker-compose configurations",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-04-20",
+      "createdAt": "2026-03-11",
+      "updatedAt": "2026-06-16"
+    },
+    {
+      "id": 117,
+      "title": "Configure CI/CD pipeline #117",
+      "description": "Automate build and deployment process via GitHub Actions",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-12-13",
+      "createdAt": "2026-09-18",
+      "updatedAt": "2026-01-03"
+    },
+    {
+      "id": 118,
+      "title": "Fix responsive layout bugs #118",
+      "description": "Resolve UI breakages on mobile screen sizes",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-06-06",
+      "createdAt": "2026-06-15",
+      "updatedAt": "2026-02-01"
+    },
+    {
+      "id": 119,
+      "title": "Write unit tests for Redux thunks #119",
+      "description": "Increase test coverage for API integration",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-08-10",
+      "createdAt": "2026-01-26",
+      "updatedAt": "2026-04-27"
+    },
+    {
+      "id": 120,
+      "title": "Implement export to CSV feature #120",
+      "description": "Allow users to download their task history",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-08-08",
+      "createdAt": "2026-03-20",
+      "updatedAt": "2026-05-22"
+    },
+    {
+      "id": 121,
+      "title": "Complete project documentation #121",
+      "description": "Write comprehensive documentation for the project",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-07-17",
+      "createdAt": "2026-05-07",
+      "updatedAt": "2026-12-01"
+    },
+    {
+      "id": 122,
+      "title": "Implement authentication #122",
+      "description": "Set up login and registration functionality",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-12-28",
+      "createdAt": "2026-01-10",
+      "updatedAt": "2026-07-16"
+    },
+    {
+      "id": 123,
+      "title": "Design dashboard UI #123",
+      "description": "Create wireframes and mockups for dashboard",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-04-21",
+      "createdAt": "2026-12-24",
+      "updatedAt": "2026-10-09"
+    },
+    {
+      "id": 124,
+      "title": "Create reusable Button component #124",
+      "description": "Build reusable button component with variants",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-03-24",
+      "createdAt": "2026-10-08",
+      "updatedAt": "2026-12-23"
+    },
+    {
+      "id": 125,
+      "title": "Build Sidebar navigation #125",
+      "description": "Implement responsive sidebar using shadcn/ui",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-01-11",
+      "createdAt": "2026-11-16",
+      "updatedAt": "2026-06-13"
+    },
+    {
+      "id": 126,
+      "title": "Integrate Redux Toolkit #126",
+      "description": "Configure store and task slices",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-05-21",
+      "createdAt": "2026-07-25",
+      "updatedAt": "2026-02-16"
+    },
+    {
+      "id": 127,
+      "title": "Implement task filtering #127",
+      "description": "Filter tasks by status and priority",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-02-27",
+      "createdAt": "2026-05-09",
+      "updatedAt": "2026-06-23"
+    },
+    {
+      "id": 128,
+      "title": "Add search functionality #128",
+      "description": "Implement debounced task search",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-07-04",
+      "createdAt": "2026-09-18",
+      "updatedAt": "2026-10-12"
+    },
+    {
+      "id": 129,
+      "title": "Create Kanban board #129",
+      "description": "Build drag and drop Kanban using dnd-kit",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-04-22",
+      "createdAt": "2026-06-01",
+      "updatedAt": "2026-07-08"
+    },
+    {
+      "id": 130,
+      "title": "Implement pagination #130",
+      "description": "Add pagination to task list",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-04-18",
+      "createdAt": "2026-11-02",
+      "updatedAt": "2026-08-20"
+    },
+    {
+      "id": 131,
+      "title": "Add dark mode support #131",
+      "description": "Implement light and dark theme switching",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-12-08",
+      "createdAt": "2026-01-25",
+      "updatedAt": "2026-07-01"
+    },
+    {
+      "id": 132,
+      "title": "Build task detail page #132",
+      "description": "Display complete task information",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-01-26",
+      "createdAt": "2026-02-07",
+      "updatedAt": "2026-04-14"
+    },
+    {
+      "id": 133,
+      "title": "Add form validation #133",
+      "description": "Validate task form using React Hook Form and Zod",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-06-26",
+      "createdAt": "2026-01-16",
+      "updatedAt": "2026-10-11"
+    },
+    {
+      "id": 134,
+      "title": "Create dashboard charts #134",
+      "description": "Visualize task statistics with Recharts",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-11-15",
+      "createdAt": "2026-08-08",
+      "updatedAt": "2026-04-19"
+    },
+    {
+      "id": 135,
+      "title": "Optimize application performance #135",
+      "description": "Reduce unnecessary re-renders and improve loading speed",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-07-03",
+      "createdAt": "2026-10-17",
+      "updatedAt": "2026-09-16"
+    },
+    {
+      "id": 136,
+      "title": "Setup Docker container #136",
+      "description": "Create Dockerfile and docker-compose configurations",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-06-20",
+      "createdAt": "2026-11-14",
+      "updatedAt": "2026-01-15"
+    },
+    {
+      "id": 137,
+      "title": "Configure CI/CD pipeline #137",
+      "description": "Automate build and deployment process via GitHub Actions",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-02-02",
+      "createdAt": "2026-07-26",
+      "updatedAt": "2026-04-01"
+    },
+    {
+      "id": 138,
+      "title": "Fix responsive layout bugs #138",
+      "description": "Resolve UI breakages on mobile screen sizes",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-05-16",
+      "createdAt": "2026-05-12",
+      "updatedAt": "2026-08-05"
+    },
+    {
+      "id": 139,
+      "title": "Write unit tests for Redux thunks #139",
+      "description": "Increase test coverage for API integration",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-10-26",
+      "createdAt": "2026-04-23",
+      "updatedAt": "2026-11-22"
+    },
+    {
+      "id": 140,
+      "title": "Implement export to CSV feature #140",
+      "description": "Allow users to download their task history",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-12-02",
+      "createdAt": "2026-01-17",
+      "updatedAt": "2026-01-02"
+    },
+    {
+      "id": 141,
+      "title": "Complete project documentation #141",
+      "description": "Write comprehensive documentation for the project",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-12-22",
+      "createdAt": "2026-09-14",
+      "updatedAt": "2026-03-28"
+    },
+    {
+      "id": 142,
+      "title": "Implement authentication #142",
+      "description": "Set up login and registration functionality",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-02-01",
+      "createdAt": "2026-11-23",
+      "updatedAt": "2026-06-26"
+    },
+    {
+      "id": 143,
+      "title": "Design dashboard UI #143",
+      "description": "Create wireframes and mockups for dashboard",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-08-14",
+      "createdAt": "2026-06-15",
+      "updatedAt": "2026-07-18"
+    },
+    {
+      "id": 144,
+      "title": "Create reusable Button component #144",
+      "description": "Build reusable button component with variants",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-11-28",
+      "createdAt": "2026-05-08",
+      "updatedAt": "2026-08-04"
+    },
+    {
+      "id": 145,
+      "title": "Build Sidebar navigation #145",
+      "description": "Implement responsive sidebar using shadcn/ui",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-10-10",
+      "createdAt": "2026-04-26",
+      "updatedAt": "2026-11-14"
+    },
+    {
+      "id": 146,
+      "title": "Integrate Redux Toolkit #146",
+      "description": "Configure store and task slices",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-08-04",
+      "createdAt": "2026-02-23",
+      "updatedAt": "2026-10-05"
+    },
+    {
+      "id": 147,
+      "title": "Implement task filtering #147",
+      "description": "Filter tasks by status and priority",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-01-13",
+      "createdAt": "2026-08-28",
+      "updatedAt": "2026-10-21"
+    },
+    {
+      "id": 148,
+      "title": "Add search functionality #148",
+      "description": "Implement debounced task search",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-12-04",
+      "createdAt": "2026-08-06",
+      "updatedAt": "2026-02-19"
+    },
+    {
+      "id": 149,
+      "title": "Create Kanban board #149",
+      "description": "Build drag and drop Kanban using dnd-kit",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-05-28",
+      "createdAt": "2026-02-05",
+      "updatedAt": "2026-05-11"
+    },
+    {
+      "id": 150,
+      "title": "Implement pagination #150",
+      "description": "Add pagination to task list",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-01-11",
+      "createdAt": "2026-10-23",
+      "updatedAt": "2026-12-15"
+    },
+    {
+      "id": 151,
+      "title": "Add dark mode support #151",
+      "description": "Implement light and dark theme switching",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-12-11",
+      "createdAt": "2026-07-22",
+      "updatedAt": "2026-06-17"
+    },
+    {
+      "id": 152,
+      "title": "Build task detail page #152",
+      "description": "Display complete task information",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-09-10",
+      "createdAt": "2026-08-04",
+      "updatedAt": "2026-09-18"
+    },
+    {
+      "id": 153,
+      "title": "Add form validation #153",
+      "description": "Validate task form using React Hook Form and Zod",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-03-21",
+      "createdAt": "2026-08-15",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": 154,
+      "title": "Create dashboard charts #154",
+      "description": "Visualize task statistics with Recharts",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-06-18",
+      "createdAt": "2026-05-11",
+      "updatedAt": "2026-08-21"
+    },
+    {
+      "id": 155,
+      "title": "Optimize application performance #155",
+      "description": "Reduce unnecessary re-renders and improve loading speed",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-06-05",
+      "createdAt": "2026-01-19",
+      "updatedAt": "2026-12-19"
+    },
+    {
+      "id": 156,
+      "title": "Setup Docker container #156",
+      "description": "Create Dockerfile and docker-compose configurations",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-06-04",
+      "createdAt": "2026-11-06",
+      "updatedAt": "2026-05-04"
+    },
+    {
+      "id": 157,
+      "title": "Configure CI/CD pipeline #157",
+      "description": "Automate build and deployment process via GitHub Actions",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-08-07",
+      "createdAt": "2026-02-05",
+      "updatedAt": "2026-05-22"
+    },
+    {
+      "id": 158,
+      "title": "Fix responsive layout bugs #158",
+      "description": "Resolve UI breakages on mobile screen sizes",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-11-11",
+      "createdAt": "2026-04-14",
+      "updatedAt": "2026-02-16"
+    },
+    {
+      "id": 159,
+      "title": "Write unit tests for Redux thunks #159",
+      "description": "Increase test coverage for API integration",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-12-16",
+      "createdAt": "2026-11-11",
+      "updatedAt": "2026-01-14"
+    },
+    {
+      "id": 160,
+      "title": "Implement export to CSV feature #160",
+      "description": "Allow users to download their task history",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-08-20",
+      "createdAt": "2026-04-11",
+      "updatedAt": "2026-03-13"
+    },
+    {
+      "id": 161,
+      "title": "Complete project documentation #161",
+      "description": "Write comprehensive documentation for the project",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-08-14",
+      "createdAt": "2026-12-24",
+      "updatedAt": "2026-01-14"
+    },
+    {
+      "id": 162,
+      "title": "Implement authentication #162",
+      "description": "Set up login and registration functionality",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-01-22",
+      "createdAt": "2026-05-17",
+      "updatedAt": "2026-03-20"
+    },
+    {
+      "id": 163,
+      "title": "Design dashboard UI #163",
+      "description": "Create wireframes and mockups for dashboard",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-06-24",
+      "createdAt": "2026-06-25",
+      "updatedAt": "2026-09-22"
+    },
+    {
+      "id": 164,
+      "title": "Create reusable Button component #164",
+      "description": "Build reusable button component with variants",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-10-08",
+      "createdAt": "2026-03-02",
+      "updatedAt": "2026-01-27"
+    },
+    {
+      "id": 165,
+      "title": "Build Sidebar navigation #165",
+      "description": "Implement responsive sidebar using shadcn/ui",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-07-21",
+      "createdAt": "2026-12-26",
+      "updatedAt": "2026-07-01"
+    },
+    {
+      "id": 166,
+      "title": "Integrate Redux Toolkit #166",
+      "description": "Configure store and task slices",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-07-20",
+      "createdAt": "2026-07-16",
+      "updatedAt": "2026-02-05"
+    },
+    {
+      "id": 167,
+      "title": "Implement task filtering #167",
+      "description": "Filter tasks by status and priority",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-09-25",
+      "createdAt": "2026-06-18",
+      "updatedAt": "2026-04-14"
+    },
+    {
+      "id": 168,
+      "title": "Add search functionality #168",
+      "description": "Implement debounced task search",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-04-12",
+      "createdAt": "2026-10-25",
+      "updatedAt": "2026-08-14"
+    },
+    {
+      "id": 169,
+      "title": "Create Kanban board #169",
+      "description": "Build drag and drop Kanban using dnd-kit",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-11-07",
+      "createdAt": "2026-06-08",
+      "updatedAt": "2026-01-28"
+    },
+    {
+      "id": 170,
+      "title": "Implement pagination #170",
+      "description": "Add pagination to task list",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-09-18",
+      "createdAt": "2026-11-04",
+      "updatedAt": "2026-05-06"
+    },
+    {
+      "id": 171,
+      "title": "Add dark mode support #171",
+      "description": "Implement light and dark theme switching",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-10-19",
+      "createdAt": "2026-07-10",
+      "updatedAt": "2026-05-06"
+    },
+    {
+      "id": 172,
+      "title": "Build task detail page #172",
+      "description": "Display complete task information",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-09-25",
+      "createdAt": "2026-01-04",
+      "updatedAt": "2026-07-12"
+    },
+    {
+      "id": 173,
+      "title": "Add form validation #173",
+      "description": "Validate task form using React Hook Form and Zod",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-10-15",
+      "createdAt": "2026-03-22",
+      "updatedAt": "2026-02-09"
+    },
+    {
+      "id": 174,
+      "title": "Create dashboard charts #174",
+      "description": "Visualize task statistics with Recharts",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-06-13",
+      "createdAt": "2026-07-20",
+      "updatedAt": "2026-10-22"
+    },
+    {
+      "id": 175,
+      "title": "Optimize application performance #175",
+      "description": "Reduce unnecessary re-renders and improve loading speed",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-01-09",
+      "createdAt": "2026-10-03",
+      "updatedAt": "2026-12-28"
+    },
+    {
+      "id": 176,
+      "title": "Setup Docker container #176",
+      "description": "Create Dockerfile and docker-compose configurations",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-01-26",
+      "createdAt": "2026-12-04",
+      "updatedAt": "2026-04-26"
+    },
+    {
+      "id": 177,
+      "title": "Configure CI/CD pipeline #177",
+      "description": "Automate build and deployment process via GitHub Actions",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-11-17",
+      "createdAt": "2026-02-25",
+      "updatedAt": "2026-05-10"
+    },
+    {
+      "id": 178,
+      "title": "Fix responsive layout bugs #178",
+      "description": "Resolve UI breakages on mobile screen sizes",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-09-21",
+      "createdAt": "2026-06-16",
+      "updatedAt": "2026-02-26"
+    },
+    {
+      "id": 179,
+      "title": "Write unit tests for Redux thunks #179",
+      "description": "Increase test coverage for API integration",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-09-11",
+      "createdAt": "2026-02-08",
+      "updatedAt": "2026-07-08"
+    },
+    {
+      "id": 180,
+      "title": "Implement export to CSV feature #180",
+      "description": "Allow users to download their task history",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-07-11",
+      "createdAt": "2026-01-18",
+      "updatedAt": "2026-05-07"
+    },
+    {
+      "id": 181,
+      "title": "Complete project documentation #181",
+      "description": "Write comprehensive documentation for the project",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-08-26",
+      "createdAt": "2026-07-20",
+      "updatedAt": "2026-12-03"
+    },
+    {
+      "id": 182,
+      "title": "Implement authentication #182",
+      "description": "Set up login and registration functionality",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-05-12",
+      "createdAt": "2026-04-28",
+      "updatedAt": "2026-12-20"
+    },
+    {
+      "id": 183,
+      "title": "Design dashboard UI #183",
+      "description": "Create wireframes and mockups for dashboard",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-04-08",
+      "createdAt": "2026-09-26",
+      "updatedAt": "2026-09-05"
+    },
+    {
+      "id": 184,
+      "title": "Create reusable Button component #184",
+      "description": "Build reusable button component with variants",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-02-19",
+      "createdAt": "2026-04-20",
+      "updatedAt": "2026-12-25"
+    },
+    {
+      "id": 185,
+      "title": "Build Sidebar navigation #185",
+      "description": "Implement responsive sidebar using shadcn/ui",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-09-20",
+      "createdAt": "2026-12-08",
+      "updatedAt": "2026-10-04"
+    },
+    {
+      "id": 186,
+      "title": "Integrate Redux Toolkit #186",
+      "description": "Configure store and task slices",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-08-12",
+      "createdAt": "2026-05-18",
+      "updatedAt": "2026-10-18"
+    },
+    {
+      "id": 187,
+      "title": "Implement task filtering #187",
+      "description": "Filter tasks by status and priority",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-05-26",
+      "createdAt": "2026-01-24",
+      "updatedAt": "2026-07-07"
+    },
+    {
+      "id": 188,
+      "title": "Add search functionality #188",
+      "description": "Implement debounced task search",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-01-09",
+      "createdAt": "2026-01-10",
+      "updatedAt": "2026-07-15"
+    },
+    {
+      "id": 189,
+      "title": "Create Kanban board #189",
+      "description": "Build drag and drop Kanban using dnd-kit",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-12-08",
+      "createdAt": "2026-08-17",
+      "updatedAt": "2026-01-15"
+    },
+    {
+      "id": 190,
+      "title": "Implement pagination #190",
+      "description": "Add pagination to task list",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-11-11",
+      "createdAt": "2026-10-12",
+      "updatedAt": "2026-02-07"
+    },
+    {
+      "id": 191,
+      "title": "Add dark mode support #191",
+      "description": "Implement light and dark theme switching",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-12-10",
+      "createdAt": "2026-09-04",
+      "updatedAt": "2026-09-28"
+    },
+    {
+      "id": 192,
+      "title": "Build task detail page #192",
+      "description": "Display complete task information",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-10-11",
+      "createdAt": "2026-07-17",
+      "updatedAt": "2026-11-20"
+    },
+    {
+      "id": 193,
+      "title": "Add form validation #193",
+      "description": "Validate task form using React Hook Form and Zod",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-06-10",
+      "createdAt": "2026-02-01",
+      "updatedAt": "2026-05-24"
+    },
+    {
+      "id": 194,
+      "title": "Create dashboard charts #194",
+      "description": "Visualize task statistics with Recharts",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-03-07",
+      "createdAt": "2026-03-14",
+      "updatedAt": "2026-06-07"
+    },
+    {
+      "id": 195,
+      "title": "Optimize application performance #195",
+      "description": "Reduce unnecessary re-renders and improve loading speed",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-04-14",
+      "createdAt": "2026-12-06",
+      "updatedAt": "2026-02-16"
+    },
+    {
+      "id": 196,
+      "title": "Setup Docker container #196",
+      "description": "Create Dockerfile and docker-compose configurations",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-04-01",
+      "createdAt": "2026-08-01",
+      "updatedAt": "2026-05-06"
+    },
+    {
+      "id": 197,
+      "title": "Configure CI/CD pipeline #197",
+      "description": "Automate build and deployment process via GitHub Actions",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-05-27",
+      "createdAt": "2026-09-23",
+      "updatedAt": "2026-10-23"
+    },
+    {
+      "id": 198,
+      "title": "Fix responsive layout bugs #198",
+      "description": "Resolve UI breakages on mobile screen sizes",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-08-28",
+      "createdAt": "2026-07-24",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": 199,
+      "title": "Write unit tests for Redux thunks #199",
+      "description": "Increase test coverage for API integration",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-07-17",
+      "createdAt": "2026-11-22",
+      "updatedAt": "2026-02-26"
+    },
+    {
+      "id": 200,
+      "title": "Implement export to CSV feature #200",
+      "description": "Allow users to download their task history",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-02-01",
+      "createdAt": "2026-01-26",
+      "updatedAt": "2026-02-21"
+    },
+    {
+      "id": 201,
+      "title": "Complete project documentation #201",
+      "description": "Write comprehensive documentation for the project",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-07-04",
+      "createdAt": "2026-08-23",
+      "updatedAt": "2026-02-02"
+    },
+    {
+      "id": 202,
+      "title": "Implement authentication #202",
+      "description": "Set up login and registration functionality",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-08-22",
+      "createdAt": "2026-11-07",
+      "updatedAt": "2026-02-15"
+    },
+    {
+      "id": 203,
+      "title": "Design dashboard UI #203",
+      "description": "Create wireframes and mockups for dashboard",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-10-18",
+      "createdAt": "2026-03-14",
+      "updatedAt": "2026-03-21"
+    },
+    {
+      "id": 204,
+      "title": "Create reusable Button component #204",
+      "description": "Build reusable button component with variants",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-09-13",
+      "createdAt": "2026-07-19",
+      "updatedAt": "2026-01-22"
+    },
+    {
+      "id": 205,
+      "title": "Build Sidebar navigation #205",
+      "description": "Implement responsive sidebar using shadcn/ui",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-07-15",
+      "createdAt": "2026-02-09",
+      "updatedAt": "2026-11-12"
+    },
+    {
+      "id": 206,
+      "title": "Integrate Redux Toolkit #206",
+      "description": "Configure store and task slices",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-05-21",
+      "createdAt": "2026-05-17",
+      "updatedAt": "2026-04-09"
+    },
+    {
+      "id": 207,
+      "title": "Implement task filtering #207",
+      "description": "Filter tasks by status and priority",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-12-14",
+      "createdAt": "2026-02-01",
+      "updatedAt": "2026-07-13"
+    },
+    {
+      "id": 208,
+      "title": "Add search functionality #208",
+      "description": "Implement debounced task search",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-04-25",
+      "createdAt": "2026-12-14",
+      "updatedAt": "2026-02-27"
+    },
+    {
+      "id": 209,
+      "title": "Create Kanban board #209",
+      "description": "Build drag and drop Kanban using dnd-kit",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-07-27",
+      "createdAt": "2026-03-12",
+      "updatedAt": "2026-09-14"
+    },
+    {
+      "id": 210,
+      "title": "Implement pagination #210",
+      "description": "Add pagination to task list",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-01-15",
+      "createdAt": "2026-07-25",
+      "updatedAt": "2026-04-14"
+    },
+    {
+      "id": 211,
+      "title": "Add dark mode support #211",
+      "description": "Implement light and dark theme switching",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-08-28",
+      "createdAt": "2026-07-08",
+      "updatedAt": "2026-08-07"
+    },
+    {
+      "id": 212,
+      "title": "Build task detail page #212",
+      "description": "Display complete task information",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-05-09",
+      "createdAt": "2026-04-21",
+      "updatedAt": "2026-07-26"
+    },
+    {
+      "id": 213,
+      "title": "Add form validation #213",
+      "description": "Validate task form using React Hook Form and Zod",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-09-13",
+      "createdAt": "2026-06-15",
+      "updatedAt": "2026-07-22"
+    },
+    {
+      "id": 214,
+      "title": "Create dashboard charts #214",
+      "description": "Visualize task statistics with Recharts",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-05-13",
+      "createdAt": "2026-02-06",
+      "updatedAt": "2026-04-05"
+    },
+    {
+      "id": 215,
+      "title": "Optimize application performance #215",
+      "description": "Reduce unnecessary re-renders and improve loading speed",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-12-03",
+      "createdAt": "2026-08-13",
+      "updatedAt": "2026-01-27"
+    },
+    {
+      "id": 216,
+      "title": "Setup Docker container #216",
+      "description": "Create Dockerfile and docker-compose configurations",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-12-23",
+      "createdAt": "2026-04-22",
+      "updatedAt": "2026-11-06"
+    },
+    {
+      "id": 217,
+      "title": "Configure CI/CD pipeline #217",
+      "description": "Automate build and deployment process via GitHub Actions",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-04-26",
+      "createdAt": "2026-09-11",
+      "updatedAt": "2026-11-10"
+    },
+    {
+      "id": 218,
+      "title": "Fix responsive layout bugs #218",
+      "description": "Resolve UI breakages on mobile screen sizes",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-05-09",
+      "createdAt": "2026-11-05",
+      "updatedAt": "2026-05-18"
+    },
+    {
+      "id": 219,
+      "title": "Write unit tests for Redux thunks #219",
+      "description": "Increase test coverage for API integration",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-02-28",
+      "createdAt": "2026-07-19",
+      "updatedAt": "2026-09-10"
+    },
+    {
+      "id": 220,
+      "title": "Implement export to CSV feature #220",
+      "description": "Allow users to download their task history",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-05-27",
+      "createdAt": "2026-06-21",
+      "updatedAt": "2026-05-24"
+    },
+    {
+      "id": 221,
+      "title": "Complete project documentation #221",
+      "description": "Write comprehensive documentation for the project",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-08-11",
+      "createdAt": "2026-12-11",
+      "updatedAt": "2026-04-11"
+    },
+    {
+      "id": 222,
+      "title": "Implement authentication #222",
+      "description": "Set up login and registration functionality",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-09-18",
+      "createdAt": "2026-08-05",
+      "updatedAt": "2026-12-13"
+    },
+    {
+      "id": 223,
+      "title": "Design dashboard UI #223",
+      "description": "Create wireframes and mockups for dashboard",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-08-03",
+      "createdAt": "2026-04-25",
+      "updatedAt": "2026-12-06"
+    },
+    {
+      "id": 224,
+      "title": "Create reusable Button component #224",
+      "description": "Build reusable button component with variants",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-05-04",
+      "createdAt": "2026-03-25",
+      "updatedAt": "2026-05-14"
+    },
+    {
+      "id": 225,
+      "title": "Build Sidebar navigation #225",
+      "description": "Implement responsive sidebar using shadcn/ui",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-03-07",
+      "createdAt": "2026-09-05",
+      "updatedAt": "2026-08-16"
+    },
+    {
+      "id": 226,
+      "title": "Integrate Redux Toolkit #226",
+      "description": "Configure store and task slices",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-02-06",
+      "createdAt": "2026-05-19",
+      "updatedAt": "2026-05-19"
+    },
+    {
+      "id": 227,
+      "title": "Implement task filtering #227",
+      "description": "Filter tasks by status and priority",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-05-25",
+      "createdAt": "2026-02-10",
+      "updatedAt": "2026-05-03"
+    },
+    {
+      "id": 228,
+      "title": "Add search functionality #228",
+      "description": "Implement debounced task search",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-11-08",
+      "createdAt": "2026-08-06",
+      "updatedAt": "2026-04-13"
+    },
+    {
+      "id": 229,
+      "title": "Create Kanban board #229",
+      "description": "Build drag and drop Kanban using dnd-kit",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-05-24",
+      "createdAt": "2026-01-24",
+      "updatedAt": "2026-08-20"
+    },
+    {
+      "id": 230,
+      "title": "Implement pagination #230",
+      "description": "Add pagination to task list",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-03-01",
+      "createdAt": "2026-08-25",
+      "updatedAt": "2026-01-03"
+    },
+    {
+      "id": 231,
+      "title": "Add dark mode support #231",
+      "description": "Implement light and dark theme switching",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-12-17",
+      "createdAt": "2026-12-12",
+      "updatedAt": "2026-01-12"
+    },
+    {
+      "id": 232,
+      "title": "Build task detail page #232",
+      "description": "Display complete task information",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-03-12",
+      "createdAt": "2026-08-06",
+      "updatedAt": "2026-01-15"
+    },
+    {
+      "id": 233,
+      "title": "Add form validation #233",
+      "description": "Validate task form using React Hook Form and Zod",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-02-08",
+      "createdAt": "2026-09-22",
+      "updatedAt": "2026-09-19"
+    },
+    {
+      "id": 234,
+      "title": "Create dashboard charts #234",
+      "description": "Visualize task statistics with Recharts",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-04-08",
+      "createdAt": "2026-04-06",
+      "updatedAt": "2026-01-19"
+    },
+    {
+      "id": 235,
+      "title": "Optimize application performance #235",
+      "description": "Reduce unnecessary re-renders and improve loading speed",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-07-21",
+      "createdAt": "2026-10-16",
+      "updatedAt": "2026-04-20"
+    },
+    {
+      "id": 236,
+      "title": "Setup Docker container #236",
+      "description": "Create Dockerfile and docker-compose configurations",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-10-07",
+      "createdAt": "2026-11-06",
+      "updatedAt": "2026-10-23"
+    },
+    {
+      "id": 237,
+      "title": "Configure CI/CD pipeline #237",
+      "description": "Automate build and deployment process via GitHub Actions",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-01-24",
+      "createdAt": "2026-04-24",
+      "updatedAt": "2026-11-28"
+    },
+    {
+      "id": 238,
+      "title": "Fix responsive layout bugs #238",
+      "description": "Resolve UI breakages on mobile screen sizes",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-03-22",
+      "createdAt": "2026-12-04",
+      "updatedAt": "2026-05-28"
+    },
+    {
+      "id": 239,
+      "title": "Write unit tests for Redux thunks #239",
+      "description": "Increase test coverage for API integration",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-12-07",
+      "createdAt": "2026-12-27",
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": 240,
+      "title": "Implement export to CSV feature #240",
+      "description": "Allow users to download their task history",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-12-12",
+      "createdAt": "2026-07-04",
+      "updatedAt": "2026-04-12"
+    },
+    {
+      "id": 241,
+      "title": "Complete project documentation #241",
+      "description": "Write comprehensive documentation for the project",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-11-07",
+      "createdAt": "2026-12-16",
+      "updatedAt": "2026-05-05"
+    },
+    {
+      "id": 242,
+      "title": "Implement authentication #242",
+      "description": "Set up login and registration functionality",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-03-07",
+      "createdAt": "2026-05-09",
+      "updatedAt": "2026-09-08"
+    },
+    {
+      "id": 243,
+      "title": "Design dashboard UI #243",
+      "description": "Create wireframes and mockups for dashboard",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-07-09",
+      "createdAt": "2026-04-24",
+      "updatedAt": "2026-05-21"
+    },
+    {
+      "id": 244,
+      "title": "Create reusable Button component #244",
+      "description": "Build reusable button component with variants",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-02-28",
+      "createdAt": "2026-01-12",
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "id": 246,
+      "title": "Integrate Redux Toolkit #246",
+      "description": "Configure store and task slices",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-12-01",
+      "createdAt": "2026-03-10",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": 247,
+      "title": "Implement task filtering #247",
+      "description": "Filter tasks by status and priority",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-06-22",
+      "createdAt": "2026-03-15",
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": 248,
+      "title": "Add search functionality #248",
+      "description": "Implement debounced task search",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-07-03",
+      "createdAt": "2026-08-27",
+      "updatedAt": "2026-09-16"
+    },
+    {
+      "id": 249,
+      "title": "Create Kanban board #249",
+      "description": "Build drag and drop Kanban using dnd-kit",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-07-23",
+      "createdAt": "2026-12-03",
+      "updatedAt": "2026-07-12"
+    },
+    {
+      "id": 250,
+      "title": "Implement pagination #250",
+      "description": "Add pagination to task list",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-05-22",
+      "createdAt": "2026-08-18",
+      "updatedAt": "2026-08-02"
+    },
+    {
+      "id": 251,
+      "title": "Add dark mode support #251",
+      "description": "Implement light and dark theme switching",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-05-25",
+      "createdAt": "2026-03-12",
+      "updatedAt": "2026-01-01"
+    },
+    {
+      "id": 252,
+      "title": "Build task detail page #252",
+      "description": "Display complete task information",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-02-16",
+      "createdAt": "2026-04-16",
+      "updatedAt": "2026-09-03"
+    },
+    {
+      "id": 253,
+      "title": "Add form validation #253",
+      "description": "Validate task form using React Hook Form and Zod",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-05-18",
+      "createdAt": "2026-01-15",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": 254,
+      "title": "Create dashboard charts #254",
+      "description": "Visualize task statistics with Recharts",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-02-24",
+      "createdAt": "2026-01-16",
+      "updatedAt": "2026-11-24"
+    },
+    {
+      "id": 255,
+      "title": "Optimize application performance #255",
+      "description": "Reduce unnecessary re-renders and improve loading speed",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-07-13",
+      "createdAt": "2026-06-26",
+      "updatedAt": "2026-08-02"
+    },
+    {
+      "id": 256,
+      "title": "Setup Docker container #256",
+      "description": "Create Dockerfile and docker-compose configurations",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-04-16",
+      "createdAt": "2026-10-12",
+      "updatedAt": "2026-12-10"
+    },
+    {
+      "id": 257,
+      "title": "Configure CI/CD pipeline #257",
+      "description": "Automate build and deployment process via GitHub Actions",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-05-26",
+      "createdAt": "2026-08-28",
+      "updatedAt": "2026-08-04"
+    },
+    {
+      "id": 258,
+      "title": "Fix responsive layout bugs #258",
+      "description": "Resolve UI breakages on mobile screen sizes",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-12-21",
+      "createdAt": "2026-04-26",
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": 259,
+      "title": "Write unit tests for Redux thunks #259",
+      "description": "Increase test coverage for API integration",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-04-14",
+      "createdAt": "2026-11-02",
+      "updatedAt": "2026-07-27"
+    },
+    {
+      "id": 260,
+      "title": "Implement export to CSV feature #260",
+      "description": "Allow users to download their task history",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-01-16",
+      "createdAt": "2026-05-11",
+      "updatedAt": "2026-05-19"
+    },
+    {
+      "id": 261,
+      "title": "Complete project documentation #261",
+      "description": "Write comprehensive documentation for the project",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-04-07",
+      "createdAt": "2026-02-08",
+      "updatedAt": "2026-04-12"
+    },
+    {
+      "id": 262,
+      "title": "Implement authentication #262",
+      "description": "Set up login and registration functionality",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-05-09",
+      "createdAt": "2026-11-24",
+      "updatedAt": "2026-07-23"
+    },
+    {
+      "id": 263,
+      "title": "Design dashboard UI #263",
+      "description": "Create wireframes and mockups for dashboard",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-12-12",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-10-09"
+    },
+    {
+      "id": 264,
+      "title": "Create reusable Button component #264",
+      "description": "Build reusable button component with variants",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-03-25",
+      "createdAt": "2026-03-06",
+      "updatedAt": "2026-03-22"
+    },
+    {
+      "id": 265,
+      "title": "Build Sidebar navigation #265",
+      "description": "Implement responsive sidebar using shadcn/ui",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-06-20",
+      "createdAt": "2026-08-01",
+      "updatedAt": "2026-06-06"
+    },
+    {
+      "id": 266,
+      "title": "Integrate Redux Toolkit #266",
+      "description": "Configure store and task slices",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-02-17",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-01-08"
+    },
+    {
+      "id": 267,
+      "title": "Implement task filtering #267",
+      "description": "Filter tasks by status and priority",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-03-05",
+      "createdAt": "2026-11-14",
+      "updatedAt": "2026-06-28"
+    },
+    {
+      "id": 268,
+      "title": "Add search functionality #268",
+      "description": "Implement debounced task search",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-08-08",
+      "createdAt": "2026-02-16",
+      "updatedAt": "2026-02-17"
+    },
+    {
+      "id": 269,
+      "title": "Create Kanban board #269",
+      "description": "Build drag and drop Kanban using dnd-kit",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-01-19",
+      "createdAt": "2026-09-28",
+      "updatedAt": "2026-12-21"
+    },
+    {
+      "id": 270,
+      "title": "Implement pagination #270",
+      "description": "Add pagination to task list",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-10-27",
+      "createdAt": "2026-11-01",
+      "updatedAt": "2026-03-13"
+    },
+    {
+      "id": 271,
+      "title": "Add dark mode support #271",
+      "description": "Implement light and dark theme switching",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-01-04",
+      "createdAt": "2026-01-06",
+      "updatedAt": "2026-04-09"
+    },
+    {
+      "id": 272,
+      "title": "Build task detail page #272",
+      "description": "Display complete task information",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-07-21",
+      "createdAt": "2026-02-27",
+      "updatedAt": "2026-02-10"
+    },
+    {
+      "id": 273,
+      "title": "Add form validation #273",
+      "description": "Validate task form using React Hook Form and Zod",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-02-10",
+      "createdAt": "2026-07-11",
+      "updatedAt": "2026-11-11"
+    },
+    {
+      "id": 274,
+      "title": "Create dashboard charts #274",
+      "description": "Visualize task statistics with Recharts",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-08-07",
+      "createdAt": "2026-05-21",
+      "updatedAt": "2026-07-11"
+    },
+    {
+      "id": 275,
+      "title": "Optimize application performance #275",
+      "description": "Reduce unnecessary re-renders and improve loading speed",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-07-16",
+      "createdAt": "2026-05-19",
+      "updatedAt": "2026-01-04"
+    },
+    {
+      "id": 276,
+      "title": "Setup Docker container #276",
+      "description": "Create Dockerfile and docker-compose configurations",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-10-26",
+      "createdAt": "2026-08-14",
+      "updatedAt": "2026-02-26"
+    },
+    {
+      "id": 277,
+      "title": "Configure CI/CD pipeline #277",
+      "description": "Automate build and deployment process via GitHub Actions",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-01-13",
+      "createdAt": "2026-01-27",
+      "updatedAt": "2026-12-18"
+    },
+    {
+      "id": 278,
+      "title": "Fix responsive layout bugs #278",
+      "description": "Resolve UI breakages on mobile screen sizes",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-02-01",
+      "createdAt": "2026-06-23",
+      "updatedAt": "2026-12-27"
+    },
+    {
+      "id": 279,
+      "title": "Write unit tests for Redux thunks #279",
+      "description": "Increase test coverage for API integration",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-11-16",
+      "createdAt": "2026-02-09",
+      "updatedAt": "2026-09-06"
+    },
+    {
+      "id": 280,
+      "title": "Implement export to CSV feature #280",
+      "description": "Allow users to download their task history",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-10-05",
+      "createdAt": "2026-02-05",
+      "updatedAt": "2026-02-14"
+    },
+    {
+      "id": 281,
+      "title": "Complete project documentation #281",
+      "description": "Write comprehensive documentation for the project",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-06-13",
+      "createdAt": "2026-06-22",
+      "updatedAt": "2026-06-18"
+    },
+    {
+      "id": 282,
+      "title": "Implement authentication #282",
+      "description": "Set up login and registration functionality",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-01-12",
+      "createdAt": "2026-07-22",
+      "updatedAt": "2026-04-08"
+    },
+    {
+      "id": 283,
+      "title": "Design dashboard UI #283",
+      "description": "Create wireframes and mockups for dashboard",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-10-06",
+      "createdAt": "2026-05-02",
+      "updatedAt": "2026-03-08"
+    },
+    {
+      "id": 284,
+      "title": "Create reusable Button component #284",
+      "description": "Build reusable button component with variants",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-09-23",
+      "createdAt": "2026-01-19",
+      "updatedAt": "2026-05-06"
+    },
+    {
+      "id": 285,
+      "title": "Build Sidebar navigation #285",
+      "description": "Implement responsive sidebar using shadcn/ui",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-12-09",
+      "createdAt": "2026-07-21",
+      "updatedAt": "2026-08-25"
+    },
+    {
+      "id": 286,
+      "title": "Integrate Redux Toolkit #286",
+      "description": "Configure store and task slices",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-05-20",
+      "createdAt": "2026-04-08",
+      "updatedAt": "2026-06-03"
+    },
+    {
+      "id": 287,
+      "title": "Implement task filtering #287",
+      "description": "Filter tasks by status and priority",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-10-18",
+      "createdAt": "2026-07-06",
+      "updatedAt": "2026-05-13"
+    },
+    {
+      "id": 288,
+      "title": "Add search functionality #288",
+      "description": "Implement debounced task search",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-06-04",
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-02-22"
+    },
+    {
+      "id": 289,
+      "title": "Create Kanban board #289",
+      "description": "Build drag and drop Kanban using dnd-kit",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-06-06",
+      "createdAt": "2026-08-20",
+      "updatedAt": "2026-04-25"
+    },
+    {
+      "id": 290,
+      "title": "Implement pagination #290",
+      "description": "Add pagination to task list",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-04-24",
+      "createdAt": "2026-01-28",
+      "updatedAt": "2026-09-27"
+    },
+    {
+      "id": 291,
+      "title": "Add dark mode support #291",
+      "description": "Implement light and dark theme switching",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-05-12",
+      "createdAt": "2026-03-28",
+      "updatedAt": "2026-09-14"
+    },
+    {
+      "id": 292,
+      "title": "Build task detail page #292",
+      "description": "Display complete task information",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-05-06",
+      "createdAt": "2026-03-05",
+      "updatedAt": "2026-08-15"
+    },
+    {
+      "id": 293,
+      "title": "Add form validation #293",
+      "description": "Validate task form using React Hook Form and Zod",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-10-08",
+      "createdAt": "2026-06-21",
+      "updatedAt": "2026-07-12"
+    },
+    {
+      "id": 294,
+      "title": "Create dashboard charts #294",
+      "description": "Visualize task statistics with Recharts",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-07-06",
+      "createdAt": "2026-05-11",
+      "updatedAt": "2026-02-15"
+    },
+    {
+      "id": 295,
+      "title": "Optimize application performance #295",
+      "description": "Reduce unnecessary re-renders and improve loading speed",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-08-28",
+      "createdAt": "2026-02-18",
+      "updatedAt": "2026-02-11"
+    },
+    {
+      "id": 296,
+      "title": "Setup Docker container #296",
+      "description": "Create Dockerfile and docker-compose configurations",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-12-20",
+      "createdAt": "2026-04-24",
+      "updatedAt": "2026-04-09"
+    },
+    {
+      "id": 297,
+      "title": "Configure CI/CD pipeline #297",
+      "description": "Automate build and deployment process via GitHub Actions",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-05-19",
+      "createdAt": "2026-04-20",
+      "updatedAt": "2026-07-23"
+    },
+    {
+      "id": 298,
+      "title": "Fix responsive layout bugs #298",
+      "description": "Resolve UI breakages on mobile screen sizes",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-02-24",
+      "createdAt": "2026-12-05",
+      "updatedAt": "2026-12-23"
+    },
+    {
+      "id": 299,
+      "title": "Write unit tests for Redux thunks #299",
+      "description": "Increase test coverage for API integration",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-05-14",
+      "createdAt": "2026-09-04",
+      "updatedAt": "2026-01-15"
+    },
+    {
+      "id": 300,
+      "title": "Implement export to CSV feature #300",
+      "description": "Allow users to download their task history",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-09-16",
+      "createdAt": "2026-06-03",
+      "updatedAt": "2026-04-17"
+    },
+    {
+      "id": 301,
+      "title": "Complete project documentation #301",
+      "description": "Write comprehensive documentation for the project",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-03-24",
+      "createdAt": "2026-10-01",
+      "updatedAt": "2026-08-13"
+    },
+    {
+      "id": 302,
+      "title": "Implement authentication #302",
+      "description": "Set up login and registration functionality",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-06-19",
+      "createdAt": "2026-09-12",
+      "updatedAt": "2026-12-21"
+    },
+    {
+      "id": 303,
+      "title": "Design dashboard UI #303",
+      "description": "Create wireframes and mockups for dashboard",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-04-22",
+      "createdAt": "2026-06-23",
+      "updatedAt": "2026-02-12"
+    },
+    {
+      "id": 304,
+      "title": "Create reusable Button component #304",
+      "description": "Build reusable button component with variants",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-04-16",
+      "createdAt": "2026-02-23",
+      "updatedAt": "2026-01-24"
+    },
+    {
+      "id": 305,
+      "title": "Build Sidebar navigation #305",
+      "description": "Implement responsive sidebar using shadcn/ui",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-02-16",
+      "createdAt": "2026-08-20",
+      "updatedAt": "2026-10-18"
+    },
+    {
+      "id": 306,
+      "title": "Integrate Redux Toolkit #306",
+      "description": "Configure store and task slices",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-05-11",
+      "createdAt": "2026-06-23",
+      "updatedAt": "2026-09-07"
+    },
+    {
+      "id": 307,
+      "title": "Implement task filtering #307",
+      "description": "Filter tasks by status and priority",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-06-12",
+      "createdAt": "2026-05-28",
+      "updatedAt": "2026-01-16"
+    },
+    {
+      "id": 308,
+      "title": "Add search functionality #308",
+      "description": "Implement debounced task search",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-01-28",
+      "createdAt": "2026-04-09",
+      "updatedAt": "2026-05-07"
+    },
+    {
+      "id": 309,
+      "title": "Create Kanban board #309",
+      "description": "Build drag and drop Kanban using dnd-kit",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-12-03",
+      "createdAt": "2026-04-24",
+      "updatedAt": "2026-09-15"
+    },
+    {
+      "id": 310,
+      "title": "Implement pagination #310",
+      "description": "Add pagination to task list",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-08-04",
+      "createdAt": "2026-04-05",
+      "updatedAt": "2026-05-23"
+    },
+    {
+      "id": 311,
+      "title": "Add dark mode support #311",
+      "description": "Implement light and dark theme switching",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-08-20",
+      "createdAt": "2026-08-07",
+      "updatedAt": "2026-01-09"
+    },
+    {
+      "id": 312,
+      "title": "Build task detail page #312",
+      "description": "Display complete task information",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-01-25",
+      "createdAt": "2026-09-01",
+      "updatedAt": "2026-10-06"
+    },
+    {
+      "id": 313,
+      "title": "Add form validation #313",
+      "description": "Validate task form using React Hook Form and Zod",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-06-09",
+      "createdAt": "2026-03-12",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": 314,
+      "title": "Create dashboard charts #314",
+      "description": "Visualize task statistics with Recharts",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-09-20",
+      "createdAt": "2026-09-13",
+      "updatedAt": "2026-10-01"
+    },
+    {
+      "id": 315,
+      "title": "Optimize application performance #315",
+      "description": "Reduce unnecessary re-renders and improve loading speed",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-01-10",
+      "createdAt": "2026-04-26",
+      "updatedAt": "2026-05-21"
+    },
+    {
+      "id": 316,
+      "title": "Setup Docker container #316",
+      "description": "Create Dockerfile and docker-compose configurations",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-08-07",
+      "createdAt": "2026-10-09",
+      "updatedAt": "2026-01-09"
+    },
+    {
+      "id": 317,
+      "title": "Configure CI/CD pipeline #317",
+      "description": "Automate build and deployment process via GitHub Actions",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-12-28",
+      "createdAt": "2026-06-09",
+      "updatedAt": "2026-02-26"
+    },
+    {
+      "id": 318,
+      "title": "Fix responsive layout bugs #318",
+      "description": "Resolve UI breakages on mobile screen sizes",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-07-24",
+      "createdAt": "2026-06-14",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": 319,
+      "title": "Write unit tests for Redux thunks #319",
+      "description": "Increase test coverage for API integration",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-01-10",
+      "createdAt": "2026-05-02",
+      "updatedAt": "2026-04-26"
+    },
+    {
+      "id": 320,
+      "title": "Implement export to CSV feature #320",
+      "description": "Allow users to download their task history",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-11-07",
+      "createdAt": "2026-05-01",
+      "updatedAt": "2026-11-10"
+    },
+    {
+      "id": 321,
+      "title": "Complete project documentation #321",
+      "description": "Write comprehensive documentation for the project",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-11-20",
+      "createdAt": "2026-05-15",
+      "updatedAt": "2026-10-06"
+    },
+    {
+      "id": 322,
+      "title": "Implement authentication #322",
+      "description": "Set up login and registration functionality",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-07-14",
+      "createdAt": "2026-04-09",
+      "updatedAt": "2026-05-15"
+    },
+    {
+      "id": 323,
+      "title": "Design dashboard UI #323",
+      "description": "Create wireframes and mockups for dashboard",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-08-12",
+      "createdAt": "2026-04-27",
+      "updatedAt": "2026-11-04"
+    },
+    {
+      "id": 324,
+      "title": "Create reusable Button component #324",
+      "description": "Build reusable button component with variants",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-12-27",
+      "createdAt": "2026-03-22",
+      "updatedAt": "2026-07-16"
+    },
+    {
+      "id": 325,
+      "title": "Build Sidebar navigation #325",
+      "description": "Implement responsive sidebar using shadcn/ui",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-07-27",
+      "createdAt": "2026-09-09",
+      "updatedAt": "2026-04-02"
+    },
+    {
+      "id": 326,
+      "title": "Integrate Redux Toolkit #326",
+      "description": "Configure store and task slices",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-07-24",
+      "createdAt": "2026-05-05",
+      "updatedAt": "2026-01-28"
+    },
+    {
+      "id": 327,
+      "title": "Implement task filtering #327",
+      "description": "Filter tasks by status and priority",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-01-22",
+      "createdAt": "2026-08-15",
+      "updatedAt": "2026-04-01"
+    },
+    {
+      "id": 328,
+      "title": "Add search functionality #328",
+      "description": "Implement debounced task search",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-02-03",
+      "createdAt": "2026-03-04",
+      "updatedAt": "2026-05-05"
+    },
+    {
+      "id": 329,
+      "title": "Create Kanban board #329",
+      "description": "Build drag and drop Kanban using dnd-kit",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-05-15",
+      "createdAt": "2026-01-24",
+      "updatedAt": "2026-10-18"
+    },
+    {
+      "id": 330,
+      "title": "Implement pagination #330",
+      "description": "Add pagination to task list",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-01-19",
+      "createdAt": "2026-02-22",
+      "updatedAt": "2026-07-20"
+    },
+    {
+      "id": 331,
+      "title": "Add dark mode support #331",
+      "description": "Implement light and dark theme switching",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-09-27",
+      "createdAt": "2026-01-26",
+      "updatedAt": "2026-02-25"
+    },
+    {
+      "id": 332,
+      "title": "Build task detail page #332",
+      "description": "Display complete task information",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-08-06",
+      "createdAt": "2026-11-17",
+      "updatedAt": "2026-09-15"
+    },
+    {
+      "id": 333,
+      "title": "Add form validation #333",
+      "description": "Validate task form using React Hook Form and Zod",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-01-28",
+      "createdAt": "2026-10-13",
+      "updatedAt": "2026-10-13"
+    },
+    {
+      "id": 334,
+      "title": "Create dashboard charts #334",
+      "description": "Visualize task statistics with Recharts",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-01-24",
+      "createdAt": "2026-08-03",
+      "updatedAt": "2026-01-17"
+    },
+    {
+      "id": 335,
+      "title": "Optimize application performance #335",
+      "description": "Reduce unnecessary re-renders and improve loading speed",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-12-28",
+      "createdAt": "2026-10-26",
+      "updatedAt": "2026-12-14"
+    },
+    {
+      "id": 336,
+      "title": "Setup Docker container #336",
+      "description": "Create Dockerfile and docker-compose configurations",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-12-22",
+      "createdAt": "2026-02-09",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": 337,
+      "title": "Configure CI/CD pipeline #337",
+      "description": "Automate build and deployment process via GitHub Actions",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-10-09",
+      "createdAt": "2026-06-08",
+      "updatedAt": "2026-02-09"
+    },
+    {
+      "id": 338,
+      "title": "Fix responsive layout bugs #338",
+      "description": "Resolve UI breakages on mobile screen sizes",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-02-17",
+      "createdAt": "2026-02-24",
+      "updatedAt": "2026-02-25"
+    },
+    {
+      "id": 339,
+      "title": "Write unit tests for Redux thunks #339",
+      "description": "Increase test coverage for API integration",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-02-01",
+      "createdAt": "2026-07-07",
+      "updatedAt": "2026-09-07"
+    },
+    {
+      "id": 340,
+      "title": "Implement export to CSV feature #340",
+      "description": "Allow users to download their task history",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-01-27",
+      "createdAt": "2026-09-14",
+      "updatedAt": "2026-12-28"
+    },
+    {
+      "id": 341,
+      "title": "Complete project documentation #341",
+      "description": "Write comprehensive documentation for the project",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-12-16",
+      "createdAt": "2026-05-22",
+      "updatedAt": "2026-08-11"
+    },
+    {
+      "id": 342,
+      "title": "Implement authentication #342",
+      "description": "Set up login and registration functionality",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-03-22",
+      "createdAt": "2026-03-21",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "id": 343,
+      "title": "Design dashboard UI #343",
+      "description": "Create wireframes and mockups for dashboard",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-05-19",
+      "createdAt": "2026-10-18",
+      "updatedAt": "2026-11-27"
+    },
+    {
+      "id": 344,
+      "title": "Create reusable Button component #344",
+      "description": "Build reusable button component with variants",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-02-16",
+      "createdAt": "2026-12-22",
+      "updatedAt": "2026-07-28"
+    },
+    {
+      "id": 345,
+      "title": "Build Sidebar navigation #345",
+      "description": "Implement responsive sidebar using shadcn/ui",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-04-22",
+      "createdAt": "2026-09-23",
+      "updatedAt": "2026-12-24"
+    },
+    {
+      "id": 346,
+      "title": "Integrate Redux Toolkit #346",
+      "description": "Configure store and task slices",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-05-13",
+      "createdAt": "2026-05-05",
+      "updatedAt": "2026-08-23"
+    },
+    {
+      "id": 347,
+      "title": "Implement task filtering #347",
+      "description": "Filter tasks by status and priority",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-01-07",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-05-19"
+    },
+    {
+      "id": 348,
+      "title": "Add search functionality #348",
+      "description": "Implement debounced task search",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-01-25",
+      "createdAt": "2026-04-11",
+      "updatedAt": "2026-12-28"
+    },
+    {
+      "id": 349,
+      "title": "Create Kanban board #349",
+      "description": "Build drag and drop Kanban using dnd-kit",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-11-09",
+      "createdAt": "2026-02-06",
+      "updatedAt": "2026-01-10"
+    },
+    {
+      "id": 350,
+      "title": "Implement pagination #350",
+      "description": "Add pagination to task list",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-04-23",
+      "createdAt": "2026-07-09",
+      "updatedAt": "2026-01-26"
+    },
+    {
+      "id": 351,
+      "title": "Add dark mode support #351",
+      "description": "Implement light and dark theme switching",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-07-18",
+      "createdAt": "2026-07-11",
+      "updatedAt": "2026-10-27"
+    },
+    {
+      "id": 352,
+      "title": "Build task detail page #352",
+      "description": "Display complete task information",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-04-20",
+      "createdAt": "2026-11-13",
+      "updatedAt": "2026-10-18"
+    },
+    {
+      "id": 353,
+      "title": "Add form validation #353",
+      "description": "Validate task form using React Hook Form and Zod",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-05-20",
+      "createdAt": "2026-07-19",
+      "updatedAt": "2026-07-21"
+    },
+    {
+      "id": 354,
+      "title": "Create dashboard charts #354",
+      "description": "Visualize task statistics with Recharts",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-04-08",
+      "createdAt": "2026-02-11",
+      "updatedAt": "2026-09-04"
+    },
+    {
+      "id": 355,
+      "title": "Optimize application performance #355",
+      "description": "Reduce unnecessary re-renders and improve loading speed",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-06-22",
+      "createdAt": "2026-12-07",
+      "updatedAt": "2026-10-26"
+    },
+    {
+      "id": 356,
+      "title": "Setup Docker container #356",
+      "description": "Create Dockerfile and docker-compose configurations",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-12-24",
+      "createdAt": "2026-06-10",
+      "updatedAt": "2026-03-20"
+    },
+    {
+      "id": 357,
+      "title": "Configure CI/CD pipeline #357",
+      "description": "Automate build and deployment process via GitHub Actions",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-05-24",
+      "createdAt": "2026-08-05",
+      "updatedAt": "2026-03-24"
+    },
+    {
+      "id": 358,
+      "title": "Fix responsive layout bugs #358",
+      "description": "Resolve UI breakages on mobile screen sizes",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-01-24",
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-10-11"
+    },
+    {
+      "id": 359,
+      "title": "Write unit tests for Redux thunks #359",
+      "description": "Increase test coverage for API integration",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-06-20",
+      "createdAt": "2026-07-07",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": 360,
+      "title": "Implement export to CSV feature #360",
+      "description": "Allow users to download their task history",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-03-18",
+      "createdAt": "2026-05-05",
+      "updatedAt": "2026-02-14"
+    },
+    {
+      "id": 361,
+      "title": "Complete project documentation #361",
+      "description": "Write comprehensive documentation for the project",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-04-24",
+      "createdAt": "2026-02-24",
+      "updatedAt": "2026-07-08"
+    },
+    {
+      "id": 362,
+      "title": "Implement authentication #362",
+      "description": "Set up login and registration functionality",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-07-17",
+      "createdAt": "2026-04-01",
+      "updatedAt": "2026-11-24"
+    },
+    {
+      "id": 363,
+      "title": "Design dashboard UI #363",
+      "description": "Create wireframes and mockups for dashboard",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-04-22",
+      "createdAt": "2026-04-08",
+      "updatedAt": "2026-01-04"
+    },
+    {
+      "id": 364,
+      "title": "Create reusable Button component #364",
+      "description": "Build reusable button component with variants",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-03-11",
+      "createdAt": "2026-10-07",
+      "updatedAt": "2026-02-04"
+    },
+    {
+      "id": 365,
+      "title": "Build Sidebar navigation #365",
+      "description": "Implement responsive sidebar using shadcn/ui",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-08-26",
+      "createdAt": "2026-08-25",
+      "updatedAt": "2026-11-05"
+    },
+    {
+      "id": 366,
+      "title": "Integrate Redux Toolkit #366",
+      "description": "Configure store and task slices",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-06-14",
+      "createdAt": "2026-05-25",
+      "updatedAt": "2026-04-18"
+    },
+    {
+      "id": 367,
+      "title": "Implement task filtering #367",
+      "description": "Filter tasks by status and priority",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-04-21",
+      "createdAt": "2026-11-01",
+      "updatedAt": "2026-07-23"
+    },
+    {
+      "id": 368,
+      "title": "Add search functionality #368",
+      "description": "Implement debounced task search",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-05-24",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-01-19"
+    },
+    {
+      "id": 369,
+      "title": "Create Kanban board #369",
+      "description": "Build drag and drop Kanban using dnd-kit",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-05-14",
+      "createdAt": "2026-11-16",
+      "updatedAt": "2026-06-27"
+    },
+    {
+      "id": 370,
+      "title": "Implement pagination #370",
+      "description": "Add pagination to task list",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-09-20",
+      "createdAt": "2026-03-16",
+      "updatedAt": "2026-09-16"
+    },
+    {
+      "id": 371,
+      "title": "Add dark mode support #371",
+      "description": "Implement light and dark theme switching",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-01-24",
+      "createdAt": "2026-04-28",
+      "updatedAt": "2026-12-18"
+    },
+    {
+      "id": 372,
+      "title": "Build task detail page #372",
+      "description": "Display complete task information",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-05-10",
+      "createdAt": "2026-04-13",
+      "updatedAt": "2026-09-04"
+    },
+    {
+      "id": 373,
+      "title": "Add form validation #373",
+      "description": "Validate task form using React Hook Form and Zod",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-09-27",
+      "createdAt": "2026-04-10",
+      "updatedAt": "2026-06-13"
+    },
+    {
+      "id": 374,
+      "title": "Create dashboard charts #374",
+      "description": "Visualize task statistics with Recharts",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-01-05",
+      "createdAt": "2026-12-13",
+      "updatedAt": "2026-01-20"
+    },
+    {
+      "id": 375,
+      "title": "Optimize application performance #375",
+      "description": "Reduce unnecessary re-renders and improve loading speed",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-05-09",
+      "createdAt": "2026-11-24",
+      "updatedAt": "2026-08-16"
+    },
+    {
+      "id": 376,
+      "title": "Setup Docker container #376",
+      "description": "Create Dockerfile and docker-compose configurations",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-02-15",
+      "createdAt": "2026-10-08",
+      "updatedAt": "2026-03-14"
+    },
+    {
+      "id": 377,
+      "title": "Configure CI/CD pipeline #377",
+      "description": "Automate build and deployment process via GitHub Actions",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-12-13",
+      "createdAt": "2026-06-04",
+      "updatedAt": "2026-01-08"
+    },
+    {
+      "id": 378,
+      "title": "Fix responsive layout bugs #378",
+      "description": "Resolve UI breakages on mobile screen sizes",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-10-05",
+      "createdAt": "2026-05-27",
+      "updatedAt": "2026-11-15"
+    },
+    {
+      "id": 379,
+      "title": "Write unit tests for Redux thunks #379",
+      "description": "Increase test coverage for API integration",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-02-10",
+      "createdAt": "2026-05-11",
+      "updatedAt": "2026-02-11"
+    },
+    {
+      "id": 380,
+      "title": "Implement export to CSV feature #380",
+      "description": "Allow users to download their task history",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-11-04",
+      "createdAt": "2026-03-28",
+      "updatedAt": "2026-01-01"
+    },
+    {
+      "id": 381,
+      "title": "Complete project documentation #381",
+      "description": "Write comprehensive documentation for the project",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-11-10",
+      "createdAt": "2026-02-21",
+      "updatedAt": "2026-09-20"
+    },
+    {
+      "id": 382,
+      "title": "Implement authentication #382",
+      "description": "Set up login and registration functionality",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-11-09",
+      "createdAt": "2026-02-02",
+      "updatedAt": "2026-07-26"
+    },
+    {
+      "id": 383,
+      "title": "Design dashboard UI #383",
+      "description": "Create wireframes and mockups for dashboard",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-05-19",
+      "createdAt": "2026-09-21",
+      "updatedAt": "2026-02-13"
+    },
+    {
+      "id": 384,
+      "title": "Create reusable Button component #384",
+      "description": "Build reusable button component with variants",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-03-16",
+      "createdAt": "2026-04-02",
+      "updatedAt": "2026-07-09"
+    },
+    {
+      "id": 385,
+      "title": "Build Sidebar navigation #385",
+      "description": "Implement responsive sidebar using shadcn/ui",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-09-07",
+      "createdAt": "2026-02-04",
+      "updatedAt": "2026-11-03"
+    },
+    {
+      "id": 386,
+      "title": "Integrate Redux Toolkit #386",
+      "description": "Configure store and task slices",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-09-01",
+      "createdAt": "2026-10-22",
+      "updatedAt": "2026-05-16"
+    },
+    {
+      "id": 387,
+      "title": "Implement task filtering #387",
+      "description": "Filter tasks by status and priority",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-09-27",
+      "createdAt": "2026-09-11",
+      "updatedAt": "2026-06-02"
+    },
+    {
+      "id": 388,
+      "title": "Add search functionality #388",
+      "description": "Implement debounced task search",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-12-05",
+      "createdAt": "2026-10-19",
+      "updatedAt": "2026-06-13"
+    },
+    {
+      "id": 389,
+      "title": "Create Kanban board #389",
+      "description": "Build drag and drop Kanban using dnd-kit",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-07-13",
+      "createdAt": "2026-08-28",
+      "updatedAt": "2026-12-20"
+    },
+    {
+      "id": 390,
+      "title": "Implement pagination #390",
+      "description": "Add pagination to task list",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-05-14",
+      "createdAt": "2026-10-10",
+      "updatedAt": "2026-03-24"
+    },
+    {
+      "id": 391,
+      "title": "Add dark mode support #391",
+      "description": "Implement light and dark theme switching",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-02-19",
+      "createdAt": "2026-04-14",
+      "updatedAt": "2026-11-23"
+    },
+    {
+      "id": 392,
+      "title": "Build task detail page #392",
+      "description": "Display complete task information",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-03-14",
+      "createdAt": "2026-02-28",
+      "updatedAt": "2026-02-14"
+    },
+    {
+      "id": 393,
+      "title": "Add form validation #393",
+      "description": "Validate task form using React Hook Form and Zod",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-05-27",
+      "createdAt": "2026-10-22",
+      "updatedAt": "2026-04-07"
+    },
+    {
+      "id": 394,
+      "title": "Create dashboard charts #394",
+      "description": "Visualize task statistics with Recharts",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2026-06-02",
+      "createdAt": "2026-06-25",
+      "updatedAt": "2026-04-28"
+    },
+    {
+      "id": 395,
+      "title": "Optimize application performance #395",
+      "description": "Reduce unnecessary re-renders and improve loading speed",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-05-25",
+      "createdAt": "2026-09-08",
+      "updatedAt": "2026-07-12"
+    },
+    {
+      "id": 396,
+      "title": "Setup Docker container #396",
+      "description": "Create Dockerfile and docker-compose configurations",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-06-09",
+      "createdAt": "2026-08-11",
+      "updatedAt": "2026-04-07"
+    },
+    {
+      "id": 397,
+      "title": "Configure CI/CD pipeline #397",
+      "description": "Automate build and deployment process via GitHub Actions",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-10-20",
+      "createdAt": "2026-06-13",
+      "updatedAt": "2026-07-28"
+    },
+    {
+      "id": 398,
+      "title": "Fix responsive layout bugs #398",
+      "description": "Resolve UI breakages on mobile screen sizes",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-06-07",
+      "createdAt": "2026-07-15",
+      "updatedAt": "2026-01-10"
+    },
+    {
+      "id": 399,
+      "title": "Write unit tests for Redux thunks #399",
+      "description": "Increase test coverage for API integration",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-10-03",
+      "createdAt": "2026-01-28",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": 400,
+      "title": "Implement export to CSV feature #400",
+      "description": "Allow users to download their task history",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-08-21",
+      "createdAt": "2026-02-09",
+      "updatedAt": "2026-02-09"
+    },
+    {
+      "title": "ddddd",
+      "description": "ddddd",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-07-29",
+      "id": 401
+    }
+  ]
+}
